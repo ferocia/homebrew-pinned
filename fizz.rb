@@ -20,7 +20,7 @@ class Fizz < Formula
   depends_on "libevent" => :build
   depends_on "double-conversion"
   depends_on "fmt"
-  depends_on "ferocia/pinned/folly"
+  depends_on "folly"
   depends_on "gflags"
   depends_on "glog"
   depends_on "libsodium"

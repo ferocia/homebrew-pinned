@@ -20,14 +20,14 @@ class Fbthrift < Formula
   depends_on "cmake" => [:build, :test]
   depends_on "mvfst" => [:build, :test]
   depends_on "double-conversion"
-  depends_on "ferocia/pinned/fizz"
+  depends_on "fizz"
   depends_on "fmt"
-  depends_on "ferocia/pinned/folly"
+  depends_on "folly"
   depends_on "gflags"
   depends_on "glog"
   depends_on "openssl@3"
-  depends_on "ferocia/pinned/wangle"
-  depends_on "ferocia/pinned/xxhash"
+  depends_on "wangle"
+  depends_on "xxhash"
   depends_on "zstd"
 
   uses_from_macos "flex" => :build
