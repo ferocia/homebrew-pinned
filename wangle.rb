@@ -18,9 +18,9 @@ class Wangle < Formula
 
   depends_on "cmake" => [:build, :test]
   depends_on "double-conversion"
-  depends_on "fizz"
+  depends_on "ferocia/pinned/fizz"
   depends_on "fmt"
-  depends_on "folly"
+  depends_on "ferocia/pinned/folly"
   depends_on "gflags"
   depends_on "glog"
   depends_on "libevent"

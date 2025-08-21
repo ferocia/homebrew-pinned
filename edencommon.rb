@@ -19,12 +19,12 @@ class Edencommon < Formula
   depends_on "cmake" => :build
   depends_on "googletest" => :build
   depends_on "mvfst" => :build
-  depends_on "wangle" => :build
+  depends_on "ferocia/pinned/wangle" => :build
   depends_on "boost"
-  depends_on "fb303"
-  depends_on "fbthrift"
+  depends_on "ferocia/pinned/fb303"
+  depends_on "ferocia/pinned/fbthrift"
   depends_on "fmt"
-  depends_on "folly"
+  depends_on "ferocia/pinned/folly"
   depends_on "gflags"
   depends_on "glog"
   depends_on "openssl@3"
