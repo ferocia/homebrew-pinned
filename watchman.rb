@@ -25,11 +25,11 @@ class Watchman < Formula
   depends_on "pkgconf" => :build
   depends_on "python-setuptools" => :build
   depends_on "rust" => :build
-  depends_on "edencommon"
-  depends_on "fb303"
-  depends_on "fbthrift"
+  depends_on "ferocia/pinned/edencommon"
+  depends_on "ferocia/pinned/fb303"
+  depends_on "ferocia/pinned/fbthrift"
   depends_on "fmt"
-  depends_on "folly"
+  depends_on "ferocia/pinned/folly"
   depends_on "gflags"
   depends_on "glog"
   depends_on "libevent"
